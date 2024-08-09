@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+      "target": "ES2020",
+      "module": "esnext",
+      "moduleResolution": "node",
+      "baseUrl": "./src",
+      "paths": {
+        "@/*": ["*"]
+      },
+      "sourceMap": true,
+      "declaration": false,
+      "outDir": "./dist/out-tsc",
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "skipLibCheck": true,
+      "strict": true,
+      "noImplicitAny": false,
+      "noImplicitThis": true,
+      "noImplicitReturns": true,
+      "noImplicitUseStrict": true,
+      "suppressImplicitAnyIndexErrors": true,
+      "lib": ["es2020", "dom"]
+    },
+    "exclude": ["node_modules", "dist", "e2e"]
+  }
+  

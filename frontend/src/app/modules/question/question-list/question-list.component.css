@@ -1,0 +1,17 @@
+.question-list {
+    margin: 20px;
+}
+
+.question-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.question-list th, .question-list td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.question-list th {
+    background-color: #f4f4f4;
+}

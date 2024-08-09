@@ -1,0 +1,21 @@
+<div class="candidate-list">
+    <h2>Candidates</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let candidate of candidates">
+                <td>{{ candidate.name }}</td>
+                <td>{{ candidate.email }}</td>
+                <td>
+                    <!-- Add edit and delete buttons if needed -->
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

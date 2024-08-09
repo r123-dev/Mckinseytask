@@ -1,0 +1,23 @@
+<div class="question-list">
+    <h2>Questions</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Question Text</th>
+                <th>Marks</th>
+                <th>Tags</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let question of questions">
+                <td>{{ question.text }}</td>
+                <td>{{ question.marks }}</td>
+                <td>{{ question.tags.join(', ') }}</td>
+                <td>
+                    <!-- Add edit and delete buttons if needed -->
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

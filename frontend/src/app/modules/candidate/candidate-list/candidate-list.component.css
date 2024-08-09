@@ -1,0 +1,17 @@
+.candidate-list {
+    margin: 20px;
+}
+
+.candidate-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.candidate-list th, .candidate-list td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.candidate-list th {
+    background-color: #f4f4f4;
+}
