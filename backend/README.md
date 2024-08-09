@@ -16,10 +16,4 @@ This is the backend component of the Assessment Manager application, built using
 - MongoDB (MongoDB Atlas recommended)
 - TypeScript
 
-## Setup
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/assessment-manager-backend.git
-   cd assessment-manager-backend
-   ```
